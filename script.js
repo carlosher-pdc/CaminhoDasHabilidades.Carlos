@@ -94,15 +94,15 @@ function avaliarResposta(){
    }
 
    else if(pontos >=60){
-    nivel = "Desenvolvedor de idéias";
+    nivel = "Desenvolvedor mediano";
    }
 
    else if(pontos >=30){
-    nivel = "Explorador de idéias";
+    nivel = "Explorador iniciante";
    }
 
   else{ 
-    nivel = "Pesquisador iniciante";
+    nivel = "umilde explorador";
    }
 
    //Relatóri final 

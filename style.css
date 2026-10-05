@@ -1,22 +1,35 @@
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #8ad6ff;
+    padding: 20px;
 
-    background-color: rgb(99, 179, 155);
-    padding: 20xp;
+
+}
+h1{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;    
 }
 .conteiner{
-    background-color: rgb(128, 179, 99);
+
+    background-color: #8aff9a;
     width: 100%;
     max-width: 650px;
     padding: 30px;
     border-radius: 25px;
-
+    text-align: center;
+}
+button{
+    border: none;
+    background: linear-gradient(135deg,#8f7cff,#00f7ff);
+    color: black;
 }
